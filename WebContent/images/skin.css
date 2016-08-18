@@ -1,0 +1,43 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #1D3647;
+}
+table.login_top_bg {
+	background-image: url("login-top-bg.gif");
+	background-repeat: repeat-x;
+}
+table.login-buttom-bg {
+	background-image: url("login-buttom-bg.gif");
+	background-repeat: repeat-x;
+}
+span.login-buttom-txt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #ABCAD3;
+	text-decoration: none;
+	line-height: 20px;
+}
+table.login_bg {
+	background-image: url(login_bg.jpg);
+	background-repeat: repeat-x;
+}
+span.login_txt_bt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 25px;
+	color: #666666;
+	font-weight: bold;
+}
+span.login_txt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 25px;
+	color: #333333;
+	width:95px;
+}
+td.td_text{
+	text-align:left;
+}

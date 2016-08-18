@@ -1,0 +1,28 @@
+Connection--java.sql;
+DriverManager--java.sql;
+SQLException--java.sql;
+Class.forName("...");
+DriverManager.getConnection("url","user","password");
+class xxxDAO; //数据库操作类
+
+JDBC的语句对象:
+1.Statement 
+2.PreparedStatement(预编译对象)
+	String sql="select * from table where id=?";
+	PreparedStatement ps=con.prepareStatement(sql);
+	ps.setXXX(1,id);
+	ResultSet rs=ps.executeQuery();
+	while(rs.next())
+	{
+	  ...
+	}
+3.CallableStatement
+
+包结构定义:com.[公司名].[工程名].[模块名].[dao包|vo包(可放外面)|util包]
+XXXdao包:封装对数据库的操作(service)
+util包:封装数据库连接对象
+XXXvo包:封装模型
+
+控制层<---->业务逻辑层-->数据层
+
+每页看到的首先是列表

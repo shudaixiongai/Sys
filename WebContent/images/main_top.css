@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+.user_topbg {
+	height: 64px;
+	background-image: url("top-right.gif");
+	background-repeat: repeat-x;
+}
+.wel_txt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	height: 38px;
+	width: 100%;
+	line-height: 38px;
+}
